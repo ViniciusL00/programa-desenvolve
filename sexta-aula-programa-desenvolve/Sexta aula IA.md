@@ -118,7 +118,7 @@ Deepseek é uma IA voltada para **pesquisa técnica, científica e análises apr
 
 ---
 
-## 6. Como Melhorar Suas Buscas com Inteligência Artificial
+## 🔎 6. Como Melhorar Suas Buscas com Inteligência Artificial
 
 A busca com IA pode ser extremamente eficaz se você souber como formular bem suas perguntas e interações.
 
