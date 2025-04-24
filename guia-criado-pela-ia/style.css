@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
+body {
+  font-family: 'Cinzel', serif;
+  background: radial-gradient(ellipse at center, #0d0d0d 0%, #000000 100%);
+  color: #d4af37;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(to right, #1c1c1c, #2c0a0a);
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 2px solid #d4af37;
+  box-shadow: 0 0 10px #d4af37;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.search-container {
+  text-align: center;
+  margin: 2rem;
+}
+
+#searchBar {
+  padding: 0.7rem;
+  width: 60%;
+  border-radius: 10px;
+  border: 1px solid #d4af37;
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+  font-size: 1rem;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 1rem 2rem;
+}
+
+.section {
+  background-color: #1b1b1b;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #d4af37;
+  box-shadow: 0 0 15px #5e3b1c;
+}
+
+.section h2 {
+  margin-top: 0;
+  color: #ffcc00;
+  font-size: 1.8rem;
+}
+
+.section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.hidden {
+  display: none;
+}
+
+.personagem-img {
+  display: block;
+  max-width: 100px;
+  width: 100%;
+  height: auto;
+  margin-top: 1.5rem;      /* Espaço acima da imagem */
+  margin-left: 1.5rem;     /* Afastar da borda esquerda */
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.6);
+  filter: brightness(0.85) contrast(1.2) saturate(1.2);
+}
+
+/* Garante que o link só pega o tamanho da imagem */
+a > .personagem-img {
+  display: block;
+}
+
+a {
+  display: inline-block;
+}
+
+@keyframes aura {
+  0% {
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.4), 0 0 40px rgba(82, 35, 35, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.7), 0 0 60px rgba(104, 103, 103, 0.9);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.589), 0 0 40px rgba(102, 102, 102, 0.719);
+  }
+}
+
+.personagem-img.aura {
+  animation: aura 3s infinite ease-in-out;
+}
+
+.habilidades-imagens {
+  display: flex;
+  justify-content: flex-start; /* Alinha à esquerda */
+  gap: 15px;
+  margin: 20px 0;
+  padding-left: 40px; /* Aqui entra o "respiro" da borda esquerda */
+  flex-wrap: wrap;
+}
+
+.habilidades-imagens img {
+  width: 130px;
+  height: auto;
+  border: 2px solid #ffc800;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 200, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.habilidades-imagens img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 80, 0, 0.6);
+}
+
+.habilidades-imagens a img {
+  cursor: pointer;
+}
+
+.texto-habilidades {
+  color: #FFD700;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.9);
+  text-align: center;
+}
+
+.modal-conteudo {
+  max-width: 90%;
+  max-height: 80%;
+  border-radius: 10px;
+}
+
+.fechar {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}

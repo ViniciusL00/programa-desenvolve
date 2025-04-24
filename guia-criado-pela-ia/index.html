@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lunia Classic</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Lunia Classic</h1>
+  </header>
+
+  <div class="search-container">
+    <input type="text" id="searchBar" placeholder="Pesquisar: personagem, habilidades, fases, nível..." />
+  </div>
+
+  <div class="content">
+    <div class="section" data-keywords="personagem guia personagem criação atributos classe">
+      <h2>Guia de Personagem</h2>
+      <p>Crie sua historia em Rodésia.</p>
+      <img src="img/dain.png" alt="Dainn - Mago" class="personagem-img aura" onclick="abrirModal('Dainn')">     
+    </div>
+
+    <div class="section" data-keywords="habilidades">
+      <h2>Guia de Habilidades</h2>
+      <div class="habilidades-imagens">
+        <div class="habilidades-container">
+          <img src="img/gelo.png" class="icone-habilidade" onclick="abrirModal('Gelo')" alt="Gelo">
+          <img src="img/fogo.png" class="icone-habilidade" onclick="abrirModal('Fogo')" alt="Fogo">
+          <img src="img/terra.png" class="icone-habilidade" onclick="abrirModal('Terra')" alt="Terra">
+          <img src="img/buff.png" class="icone-habilidade" onclick="abrirModal('Buff')" alt="Buff">
+          <img src="img/passivas.png" class="icone-habilidade" onclick="abrirModal('Passiva')" alt="Passiva">
+        </div>
+    </div>
+    <p>Domine tudo sobre seu personagem.</p>
+
+    <div class="section" data-keywords="fases">
+      <h2>Guia de Fases</h2>
+      <p>Aprenda tudo sobre Rodésia e seus segredos.</p>
+    </div>
+
+    <div class="section" data-keywords="subir de nível">
+      <h2>Guia de Como Subir de Nível</h2>
+      <p>Não perca tempo e não fique empacado, aprenda a progredir da maneira correta e mais rápido.</p>
+    </div>
+  </div>
+
+  <div id="modal" class="modal" onclick="fecharImagem()">
+    <span class="fechar">&times;</span>
+    <img class="modal-conteudo" id="imagemModal">
+  </div>  
+
+  <script src="script.js"></script>
+</body>
+</html>
