@@ -7,7 +7,8 @@
 1. 🧹 Remoção de objetos da imagem ➡️ [Cleanup Pictures](https://cleanup.pictures/)
 2. 🖼️ Remoção de fundo ➡️ [Remove BG](https://www.remove.bg/)
 3. 🔥 Criação e edição com IA ➡️ [Adobe Firefly](https://firefly.adobe.com/)
-
+4. 🖼️ Criação de imagem ➡️ [Krea](https://krea.ai/)
+ 
 ---
 
 ## ✍️ Criação de Imagens: O Poder do Prompt
@@ -60,5 +61,38 @@ Um **prompt** é simplesmente uma frase **muito bem bolada** que explica para a 
 | Perspectiva lateral (side view)           | Mostrando o lado do objeto ou da pessoa                  | Um carro visto de lado                    |
 | Close-up                                  | Foco nos detalhes, bem de pertinho                       | Somente as mãos costurando roupa          |
 | Plano aberto (wide shot)                  | Cena completa, ambiente incluído                         | A praça inteira cheia de gente conversando|
+
+---
+
+# 🎙️ Narrações e Músicas
+
+## 📝 Criação de Podcasts
+
+- 📓 **Notebook LLM** — Criação de podcasts  
+  🔗 [notebooklm.google.com](https://notebooklm.google.com/)
+
+---
+
+## 🎧 Melhorias de Áudio
+
+- 🛠️ **Adobe Enhanced** — Melhorias no áudio de gravações  
+  🔗 [podcast.adobe.com/enhance](https://podcast.adobe.com/enhance)
+
+---
+
+## 🗣️ Transformação de Texto para Voz
+
+- 🧠 **Elevenlabs** — Conversão de texto em voz realista  
+  🔗 [elevenlabs.io](https://elevenlabs.io/)
+
+- 🗣️ **Speechma** — Outra opção para transformar texto em voz  
+  🔗 [speechma.com](https://speechma.com/)
+
+---
+
+## 🎵 Criação de Músicas
+
+- 🎼 **Suno** — Criação automática de músicas  
+  🔗 [suno.com](https://suno.com/)
 
 ---
