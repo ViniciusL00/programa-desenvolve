@@ -111,3 +111,45 @@ O **Gamma AI** é uma ferramenta de inteligência artificial generativa que perm
 - 🎥 [Tutorial em vídeo: Como usar o Gamma AI](https://www.youtube.com/watch?v=FasHAWUFDeI)
 
 ---
+
+# 🌐 Replit.com – Programação direto do navegador
+
+**Replit.com** é uma plataforma online que permite você **programar direto do navegador**, sem precisar instalar nada. É como um editor de código com superpoderes rodando 100% na nuvem.
+
+---
+
+## 🔧 O que é?
+Um **ambiente de desenvolvimento online** (IDE na nuvem) onde você pode escrever, rodar e compartilhar código em dezenas de linguagens — incluindo **JavaScript, Python, C++, HTML/CSS**, entre outras.
+
+---
+
+## 🚀 Para que serve?
+- ⚡ Testar ideias de código rapidinho  
+- 📚 Estudar e aprender programação  
+- 🤝 Trabalhar em grupo com colaboração em tempo real (tipo Google Docs)  
+- 🌐 Criar APIs, bots, sites, jogos e mais
+
+---
+
+## 🎯 Diferenciais
+- ☁️ **100% online** – não precisa instalar nada
+- 🖥️ **Terminal embutido** com comandos Linux
+- 🗄️ **Banco de dados integrado** pra usar nos projetos
+- 📦 **Publicação fácil** de sites e apps com um clique
+- 🧰 Templates prontos pra vários tipos de projeto
+- 💸 Planos pagos oferecem mais performance e projetos privados
+
+---
+
+## 🧠 Pra quem é?
+- 👶 Iniciantes que querem aprender
+- 🎓 Estudantes
+- 👨‍💻 Devs que querem prototipar rápido
+- 🧪 Quem não quer perder tempo configurando o ambiente local
+
+---
+
+👉 Site: [Replit.com](https://replit.com).
+🎉 Escreva e execute seu código direto do navegador.
+
+---
