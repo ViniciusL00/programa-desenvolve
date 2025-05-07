@@ -53,3 +53,123 @@ Você tem uma loja virtual:
 Isso é **análise de dados na prática**, simples e poderosa.
 
 ---
+
+# 🧠 Diferença entre **Dados** e **Informação**
+
+Essa dúvida é clássica — tipo confundir farinha com bolo. Bora esclarecer 👇
+
+---
+
+## 🧱 **O que são Dados?**
+
+São os **elementos brutos**, ainda sem contexto ou interpretação.  
+Sozinhos, eles **não dizem muita coisa**.
+
+### 📌 Exemplos de dados:
+- `25, 30, 18, 40`
+- `SP, RJ, MG`
+- `2025-05-07`
+
+💬 Se eu te disser apenas “25”, você pode perguntar:  
+*25 o quê? Anos? Quilos? Vendas?*
+
+Ou seja: **é só um número perdido no rolê**.
+
+---
+
+## 🧠 **O que é Informação?**
+
+É o **resultado da análise e interpretação dos dados**.  
+Quando você dá contexto aos dados, eles viram **informação útil**.
+
+### 📌 Exemplos de informação:
+- “A idade média dos nossos clientes é 25 anos.”  
+- “As vendas cresceram 15% em São Paulo no último mês.”  
+- “A maioria dos acessos ao site acontece às 20h.”
+
+🧭 Agora sim, dá pra **agir com base nisso**. Informação tem **valor**.
+
+---
+
+## 🎯 Resumo direto:
+
+| 🧩 Termo         | 🧾 É o quê?                         | 🛠️ Serve pra...?                   |
+|------------------|------------------------------------|------------------------------------|
+| **Dado**         | Um pedaço cru da realidade         | Ser processado ou analisado       |
+| **Informação**   | Dado interpretado com contexto     | Tomar decisões com inteligência   |
+
+---
+
+## 🔧 Analogia simples:
+
+- **Dado** = 🍳 Ingrediente (ovo, farinha, açúcar)  
+- **Informação** = 🎂 Bolo pronto (com sabor e propósito)
+
+---
+
+# 📦 Tipos de Dados: Estruturados, Semiestruturados e Não Estruturados
+
+## 1. 🗃️ **Dados Estruturados**
+
+São os mais organizadinhos, tudo no seu quadrado — tipo planilha ou tabela de banco de dados.
+
+### ✨ Características:
+- Organizados em **linhas e colunas**
+- Fáceis de buscar, filtrar, consultar
+- Armazenados em **bancos de dados relacionais** (MySQL, PostgreSQL etc)
+
+### 📌 Exemplos:
+- Tabelas com nome, CPF, idade
+- Planilhas do Excel
+- Registros de vendas com data e valor
+
+> ✅ **Prontos pra análise direta**
+
+---
+
+## 2. 🧩 **Dados Semiestruturados**
+
+Têm **alguma organização**, mas não seguem aquele formato rígido de tabela.
+
+### ✨ Características:
+- Estrutura **flexível**, porém definida
+- Armazenados em formatos como **JSON**, **XML**
+- Requerem interpretação, mas são legíveis por máquinas
+
+### 📌 Exemplos:
+- Arquivos JSON (`{ "nome": "João", "idade": 30 }`)
+- E-mails (com assunto, corpo, remetente…)
+- Logs de servidores
+
+> ⚖️ **Meio termo: bagunçado, mas com lógica**
+
+---
+
+## 3. 🌀 **Dados Não Estruturados**
+
+Aqui é o caos criativo: nada de coluninha, nada de padrão fixo.
+
+### ✨ Características:
+- Sem estrutura definida
+- Difíceis de processar automaticamente
+- Requerem **IA** ou técnicas avançadas de análise
+
+### 📌 Exemplos:
+- 🎥 Vídeos
+- 🖼️ Imagens
+- 🎙️ Áudios
+- 📝 Textos livres (tipo este aqui)
+
+> ❗ **Precisam ser domados antes de virar informação útil**
+
+---
+
+## 🧠 Resumão Tabelado:
+
+| Tipo de Dado         | 🏗️ Estrutura       | 📌 Exemplos                        | 📊 Facilidade de Análise |
+|----------------------|--------------------|-----------------------------------|---------------------------|
+| 🗃️ Estruturado        | Rígida (tabela)     | Planilhas, bancos SQL             | Alta ✅                   |
+| 🧩 Semiestruturado    | Parcial/Flexível    | JSON, XML, e-mails                | Média ⚠️                  |
+| 🌀 Não Estruturado     | Nenhuma             | Vídeos, imagens, texto livre      | Baixa ❌                  |
+
+---
