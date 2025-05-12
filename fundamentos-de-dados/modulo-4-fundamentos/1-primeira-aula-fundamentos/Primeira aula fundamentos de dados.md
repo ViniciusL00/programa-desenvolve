@@ -1,3 +1,5 @@
+# 🤖 Revisão da Primeira Aula: Fundamentos de dados
+
 # 📊 Introdução às Decisões Baseadas em Dados
 
 ## 🎯 Objetivos
